@@ -13,8 +13,7 @@
     "istanbul": "^0.3.13",
     "lint-trap": "^1.0.1",
     "opn": "^1.0.1",
-    "tape": "^4.0.0",
-    "uber-dot-arcanist": "^1.2.0"
+    "tape": "^4.0.0"
   },
   "dependencies": {
     "xtend": "^4.0.0"
