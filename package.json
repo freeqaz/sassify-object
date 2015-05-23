@@ -4,7 +4,14 @@
   "description": "An utility for declaring variables in SASS files.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "changelog-major": "build-changelog --major",
+    "changelog-minor": "build-changelog --minor",
+    "changelog-patch": "build-changelog --patch",
+    "cover": "istanbul cover --report cobertura --print detail tape -- test/index.js",
+    "lint": "lint-trap",
+    "test": "npm run lint -s && npm run cover -s",
+    "fast-test": "npm run lint && tape test/index.js",
+    "view-cover": "istanbul report html && opn ./coverage/index.html"
   },
   "author": "freeqaz@freeqaz.com",
   "license": "MIT",
