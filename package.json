@@ -13,7 +13,7 @@
     "fast-test": "npm run lint && tape test/index.js",
     "view-cover": "istanbul report html && opn ./coverage/index.html"
   },
-  "author": "freeqaz@freeqaz.com",
+  "author": "freeqaz <freeqaz@freeqaz.com> (http://freeqaz.com)",
   "license": "MIT",
   "devDependencies": {
     "build-changelog": "^2.1.2",
