@@ -1,5 +1,5 @@
 {
-  "name": "sass-variables",
+  "name": "sassify-object",
   "version": "1.0.0",
   "description": "An utility for declaring variables in SASS files.",
   "main": "index.js",
@@ -30,10 +30,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freeqaz/sass-variables.git"
+    "url": "git+https://github.com/freeqaz/sassify-object.git"
   },
   "bugs": {
-    "url": "https://github.com/freeqaz/sass-variables/issues"
+    "url": "https://github.com/freeqaz/sassify-object/issues"
   },
-  "homepage": "https://github.com/freeqaz/sass-variables#readme"
+  "homepage": "https://github.com/freeqaz/sassify-object#readme"
 }
