@@ -13,7 +13,12 @@ function sassifyFn(rawObject) {
   Object.keys(rawObject).forEach(function iterateVariables(key) {
     var variable = rawObject[key];
 
-    sassified += '$' + key + ': ' + JSON.stringify(variable) + ';\n';
+    var stringified = JSON.stringify(variable);
+
+    // Trim off double quotes for CSS variables.
+    stringified = stringified.substring(1, stringified.length - 1);
+
+    sassified += '$' + key + ': ' + stringified + ';\n';
   });
 
   return sassified;
